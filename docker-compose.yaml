@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  webapp:
+    image: httpd:latest
+    container_name: test
+    ports:
+      - "80:80"
+    volumes:
+      - "/jeevi"
